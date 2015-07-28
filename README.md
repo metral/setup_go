@@ -8,3 +8,4 @@
   * pushd <golang_proj>/pkg
   * ln -s linux/amd64 linux_amd64
   * popd
+  * ~/gbimports
