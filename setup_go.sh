@@ -4,6 +4,8 @@ DIR="$HOME/go"
 GOVERSION=1.4
 
 mkdir $DIR
+echo "export GOPATH=\$(pwd):\$(pwd)/vendor" >> ~/gbimports
+
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
 source $HOME/.gvm/scripts/gvm
