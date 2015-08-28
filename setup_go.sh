@@ -5,6 +5,7 @@ GOVERSION=1.4
 
 mkdir $DIR
 echo "export GOPATH=\$(pwd):\$(pwd)/vendor" > ~/gbimports
+echo "ln -f -s pkg/linux/amd64/ pkg/linux_amd64" >> ~/gbimports
 
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 
