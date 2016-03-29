@@ -14,8 +14,8 @@ source $HOME/.gvm/scripts/gvm
 gvm install go$GOVERSION
 gvm use go$GOVERSION --default
 
-sed -i "s#export GVM_ROOT.*#export GVM_ROOT; GVM_ROOT=\"$HOME\"/.gvm#g" ~/.gvm/environments/default
-sed -i "s#export GOPATH.*#export GOPATH; GOPATH=\"$DIR\"#g" ~/.gvm/environments/default
+#sed -i "s#export GVM_ROOT.*#export GVM_ROOT; GVM_ROOT=\"$HOME\"/.gvm#g" ~/.gvm/environments/default
+#sed -i "s#export GOPATH.*#export GOPATH; GOPATH=\"$DIR\"#g" ~/.gvm/environments/default
 
 echo "export PATH=\$PATH:$HOME/go/bin" >> ~/.bashrc
 
