@@ -1,5 +1,12 @@
 #!/bin/bash
 
+EXPECTEDARGS=1
+if [ $# -lt $EXPECTEDARGS ]; then
+    echo "Usage: $0 <GO_VERSION>"
+    echo "i.e: $0 1.6"
+    exit 0
+fi
+
 GOVERSION=$1
 DIR="$HOME/go"
 
