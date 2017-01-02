@@ -15,7 +15,7 @@ gvm install go$GOVERSION
 gvm use go$GOVERSION
 
 echo "export PATH=\$PATH:$HOME/go/bin" >> ~/.bashrc
-echo "source /mystore/mike/.gvm/scripts/gvm" >> ~/.bashrc
+echo "source $HOME/.gvm/scripts/gvm" >> ~/.bashrc
 
 echo "==================================="
 echo "source ~/.bashrc"
@@ -24,5 +24,5 @@ echo "==================================="
 #[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 source ~/.bashrc
 
-go get github.com/constabulary/gb/...
+#go get github.com/constabulary/gb/...
 vim +GoInstallBinaries +qall now > /dev/null 2>&1
