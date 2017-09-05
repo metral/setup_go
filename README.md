@@ -1,5 +1,6 @@
-# Setup Golang
+# Setup Golang on Ubuntu 16.04
 * Prereq - Install Go 1.4 (to frontload versions 1.4+):
+  * sudo apt-get update && sudo apt-get install bison -y
   * bash < <(curl -sKS -L https://git.io/vrs9B)
-* Install Go 1.7 (for example)
-  * bash <(curl -sKS -L https://git.io/vzAEK) 1.7
+* Install Go 1.8.3 (for example)
+  * bash <(curl -sKS -L https://git.io/vzAEK) 1.8.3
