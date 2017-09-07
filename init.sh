@@ -3,7 +3,7 @@
 DIR="$HOME/go"
 GOVERSION=1.4
 
-mkdir $DIR
+mkdir $DIR > /dev/null 2>&1
 #echo "export GOPATH=\$(pwd):\$(pwd)/vendor" > ~/gbimports
 #echo "ln -f -s linux-amd64/ pkg/linux-amd64" >> ~/gbimports
 export CGO_ENABLED=0
