@@ -11,7 +11,7 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 
 source $HOME/.gvm/scripts/gvm
 
-gvm install go$GOVERSION
+gvm install go$GOVERSION -B
 gvm use go$GOVERSION
 
 echo "export PATH=\$PATH:$HOME/go/bin" >> ~/.bashrc
