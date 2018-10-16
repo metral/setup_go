@@ -26,3 +26,4 @@ source ~/.bashrc
 
 #go get github.com/constabulary/gb/...
 vim +GoInstallBinaries +qall now > /dev/null 2>&1
+vim +GoUpdateBinaries +qall now > /dev/null 2>&1
