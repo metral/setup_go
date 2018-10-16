@@ -25,3 +25,6 @@ sed -i "s#export GOROOT.*#export GOROOT; GOROOT=\"$NEW_GOROOT\"#g" ~/.gvm/enviro
 echo "==================================="
 echo "source ~/.bashrc"
 echo "==================================="
+
+vim +GoInstallBinaries +qall now > /dev/null 2>&1
+vim +GoUpdateBinaries +qall now > /dev/null 2>&1
