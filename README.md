@@ -5,7 +5,7 @@
   
   bash < <(curl -sKS -L https://git.io/vrs9B)
   ```
-* Install Go 1.11.4 (for example)
+* Install Go (for example)
   ```bash
   bash <(curl -sKS -L https://git.io/vzAEK) 1.13.6
   ```
