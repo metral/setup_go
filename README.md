@@ -1,4 +1,4 @@
-# Setup Golang on Ubuntu 18.04
+# Setup Golang on Ubuntu 20.04
 * Prereq - Install Go 1.4 (to frontload versions 1.4+):
   ```bash
   sudo apt-get update && sudo apt-get install bison -y
@@ -7,5 +7,5 @@
   ```
 * Install Go (for example)
   ```bash
-  bash <(curl -sKS -L https://git.io/vzAEK) 1.13.6
+  bash <(curl -sKS -L https://git.io/vzAEK) 1.14.2
   ```
